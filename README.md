@@ -15,3 +15,8 @@ npm run start
 ## Demo
 
 Please see demo available at https://simple-calculator-fawn.vercel.app/
+
+
+## Notes
+
+I struggled with adding tests to this project, I have never used testing in Preact before and I found it difficult to add the needed libraries along with jest.
