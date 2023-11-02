@@ -2,6 +2,11 @@
   text-align: center;
   display: grid;
   gap: 5rem;
-  grid-template-rows: 90px 1fr;
+  grid-template-rows: auto 1fr;
   min-width: 100vw;
+}
+
+.App main {
+  display: grid;
+  place-items: center;
 }

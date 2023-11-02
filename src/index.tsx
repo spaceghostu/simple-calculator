@@ -10,7 +10,9 @@ export function App() {
   return (
     <div className={styles.App}>
       <Header />
-      <Calculator />
+      <main>
+        <Calculator />
+      </main>
     </div>
   );
 }
