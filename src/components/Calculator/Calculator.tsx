@@ -1,3 +1,4 @@
+import { h } from "preact";
 import { evaluate } from "mathjs";
 import styles from "./Calculator.module.css";
 import { signal, computed } from "@preact/signals";

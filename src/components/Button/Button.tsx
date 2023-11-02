@@ -1,3 +1,4 @@
+import { h } from "preact";
 import styles from "./Button.module.css";
 
 export const Button = (props) => {
