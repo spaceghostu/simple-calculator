@@ -1,0 +1,28 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 200px;
+  margin: auto;
+}
+.root input,
+.root button {
+  padding: 20px;
+  font-size: 1.5em;
+}
+.root input {
+  grid-column: span 3;
+}
+.root .result {
+  grid-column: span 4;
+}
+
+.result {
+  background: #eee;
+  text-align: left;
+  padding: 0.75rem;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  overflow: hidden;
+}
