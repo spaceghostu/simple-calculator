@@ -10,3 +10,8 @@ Clone this repo and run
 cd ./simple-calculator
 npm run start
 ```
+
+
+## Demo
+
+Please see demo available at https://simple-calculator-fawn.vercel.app/
