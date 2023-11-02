@@ -8,6 +8,7 @@ Clone this repo and run
 
 ```
 cd ./simple-calculator
+npm ci
 npm run start
 ```
 
