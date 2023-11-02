@@ -1,6 +1,7 @@
 import { evaluate } from "mathjs";
 import styles from "./Calculator.module.css";
 import { signal, computed } from "@preact/signals";
+import { Button } from "../Button/Button";
 
 const KEYS = [
   "7",
@@ -45,12 +46,12 @@ export function Calculator() {
   };
 
   return (
-    <div className={styles.root}>
+    <div className={styles.Calculator}>
       <input value={inputValue} type="text" readonly />
-      <button onClick={handleBackspace}>{"<"}</button>
+      <Button onClick={handleBackspace}>{"<"}</Button>
       <div className={styles.result}>={result}</div>
       {KEYS.map((key) => (
-        <button onClick={() => handleClick(key)}>{key}</button>
+        <Button onClick={() => handleClick(key)}>{key}</Button>
       ))}
     </div>
   );
